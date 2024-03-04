@@ -12,3 +12,5 @@
 => consistant  hasing
 => differential bundling
 => tree shaking - remove unused code
+
+04-03-34
