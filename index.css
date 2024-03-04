@@ -1,3 +1,53 @@
-#xyz{
-    color:blue;
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_main{
+    margin-left: 50px;
+}
+.logo{
+    height: 100px;
+}
+
+.nav_bar{
+    margin-right: 200px;
+}
+.nav_bar>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_bar>ul>li{
+    list-style-type: none;
+    margin-right: 120px;
+    font-family: system-ui,'Segoe UI';
+    font-size:18px;
+}
+
+.Restuarent_block{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 250px;
+    
+}
+.res_card{
+    width: 200px;
+    margin: 20px;
+}
+
+.res_image{
+    width:100%;
+    height:150px;
+    border-radius: 20px;
+    image-orientation: initial;
+}
+.res_desc>p{
+    font-family: system-ui,'Segoe UI';
+    font-size: 18px;
 }
